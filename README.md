@@ -28,7 +28,7 @@ In this unit, coders will create a Playlist. The Playlist will display a list of
 
 ### JavaScript
 - [ x] Create a loop to display your song names
-- [ ] Repeat these steps for song artist, s
+- [ x] Repeat these steps for song artist, s
 ong length, image, and link
 ### Wrap
 - [ ] Push your changes!

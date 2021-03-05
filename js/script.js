@@ -23,11 +23,28 @@ for (let name of Kpopimage) {
   $(".kpopimage").append(`<img src="${name}">`);
 }
 $(".addButton").click(function() {
-  let Song = $(".KpopSongs").val();
+  let Song = $(".KpopSongsInput").val();
   // kpopSongs = ["Daynamite", "ON", "Lovesickgirl", "savage"];
   kpopSongs.push(Song);
   // kpopSongs = ["Daynamite", "ON", "Lovesickgirl", "savage", "Boy Over Flowers"];
   console.log(kpopSongs);
   $(".kpop").append(` <div >${Song}</div>
 `);
+  
+  let Artist = $(".KpopArtistInput").val();
+  KpopArtist.push(Artist);
+  $(".kpopArtist").append(`<div >${Artist}</div>`);
+
+  let Length = $(".KpopLengthInput").val();
+  Kpoplength.push(Length);
+  $(".kpoplength").append(`<div >${Length}</div>`);
+
+
+
 });
+
+
+
+
+
+
